@@ -2,11 +2,11 @@
     "version": "1.4.0",
     "project": {
         "name": "app",
-        "directory": "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\app",
-        "workspaceDir": "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template",
+        "directory": "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\app",
+        "workspaceDir": "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template",
         "sources": [
-            "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\app\\src\\main\\java",
-            "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\app\\src\\main\\scala"
+            "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\app\\src\\main\\scala",
+            "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\app\\src\\main\\java"
         ],
         "dependencies": [
             
@@ -30,10 +30,10 @@
             "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\5.0.4\\da08b8cce7bbf903602a25a3a163ae252435795\\asm-5.0.4.jar",
             "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.jline\\jline\\3.10.0\\5a1cf6bd0d3967ec99b2b63cfc3e1987c911b3df\\jline-3.10.0.jar"
         ],
-        "out": "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\.bloop\\app\\build",
-        "classesDir": "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\.bloop\\app\\build\\classes",
+        "out": "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\.bloop\\app\\build",
+        "classesDir": "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\.bloop\\app\\build\\classes",
         "resources": [
-            "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\app\\src\\main\\resources"
+            "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\app\\src\\main\\resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -72,7 +72,7 @@
                 "-source",
                 "17",
                 "-h",
-                "C:\\Users\\Manuel\\Documents\\Universidad\\Funcional\\Taller TRUE\\talleres-pfc-template\\app\\build\\generated\\sources\\headers\\java\\main",
+                "C:\\Users\\Manuel\\Documents\\Universidad\\Nueva carpeta (3)\\talleres-pfc-template\\app\\build\\generated\\sources\\headers\\java\\main",
                 "-g",
                 "-sourcepath",
                 "",
@@ -162,22 +162,6 @@
                 },
                 {
                     "organization": "org.scalatest",
-                    "name": "scalatest-refspec_2.13",
-                    "version": "3.2.16",
-                    "artifacts": [
-                        {
-                            "name": "scalatest-refspec_2.13",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-refspec_2.13\\3.2.16\\65595306a448b12c0f3e2cbaa3e5fc97ba93c288\\scalatest-refspec_2.13-3.2.16.jar"
-                        },
-                        {
-                            "name": "scalatest-refspec_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-refspec_2.13\\3.2.16\\49c9cb1daa5489370dd456da02b2a0cb884e2e8a\\scalatest-refspec_2.13-3.2.16-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalatest",
                     "name": "scalatest-core_2.13",
                     "version": "3.2.16",
                     "artifacts": [
@@ -189,6 +173,22 @@
                         {
                             "name": "scalatest-core_2.13",
                             "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-core_2.13\\3.2.16\\1113f9844dff91e14d2924b16c6a88de25c556d2\\scalatest-core_2.13-3.2.16.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.13",
+                    "version": "3.2.16",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-refspec_2.13\\3.2.16\\65595306a448b12c0f3e2cbaa3e5fc97ba93c288\\scalatest-refspec_2.13-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-refspec_2.13\\3.2.16\\49c9cb1daa5489370dd456da02b2a0cb884e2e8a\\scalatest-refspec_2.13-3.2.16-sources.jar"
                         }
                     ]
                 },
@@ -305,18 +305,18 @@
                     ]
                 },
                 {
-                    "organization": "org.scalatest",
-                    "name": "scalatest_2.13",
-                    "version": "3.2.16",
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.18.0",
                     "artifacts": [
                         {
-                            "name": "scalatest_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest_2.13\\3.2.16\\96580fdcf4a097ef032007e7654a2236b18beb0f\\scalatest_2.13-3.2.16-sources.jar"
+                            "name": "error_prone_annotations",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.18.0\\89b684257096f548fa39a7df9fdaa409d4d4df91\\error_prone_annotations-2.18.0.jar"
                         },
                         {
-                            "name": "scalatest_2.13",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest_2.13\\3.2.16\\a3ecd2cff5693e1d4d1dac57a7dd395daeb54497\\scalatest_2.13-3.2.16.jar"
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.18.0\\8781f46ef842929cf22e83273ef0d2091b96845f\\error_prone_annotations-2.18.0-sources.jar"
                         }
                     ]
                 },
@@ -337,18 +337,18 @@
                     ]
                 },
                 {
-                    "organization": "com.google.errorprone",
-                    "name": "error_prone_annotations",
-                    "version": "2.18.0",
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.2.16",
                     "artifacts": [
                         {
-                            "name": "error_prone_annotations",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.18.0\\89b684257096f548fa39a7df9fdaa409d4d4df91\\error_prone_annotations-2.18.0.jar"
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest_2.13\\3.2.16\\96580fdcf4a097ef032007e7654a2236b18beb0f\\scalatest_2.13-3.2.16-sources.jar"
                         },
                         {
-                            "name": "error_prone_annotations",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.18.0\\8781f46ef842929cf22e83273ef0d2091b96845f\\error_prone_annotations-2.18.0-sources.jar"
+                            "name": "scalatest_2.13",
+                            "path": "C:\\Users\\Manuel\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest_2.13\\3.2.16\\a3ecd2cff5693e1d4d1dac57a7dd395daeb54497\\scalatest_2.13-3.2.16.jar"
                         }
                     ]
                 },
